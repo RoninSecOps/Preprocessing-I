@@ -355,3 +355,18 @@ body .bottom-section .table-container table th {
 body .bottom-section .table-container table tr:nth-child(even) {
   background-color: #968686;
 }
+body footer {
+  margin-right: 3%;
+  margin-top: 3%;
+  margin-left: 3%;
+  background: #968686;
+  text-align: center;
+}
+body footer p {
+  padding: 5px;
+}
+@media (max-width: 500px) {
+  body .gone {
+    display: none;
+  }
+}
