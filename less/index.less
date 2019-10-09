@@ -378,9 +378,25 @@ body {
     margin-right: 3%;
     .margin3tl();
     background: @gray;
-    text-align: center;
+    address {
+      font-size: @rem16;
+      h5 {
+        font-weight: bold;
+      }
+      p {
+        text-align: left;
+        @media (max-width: @phone) {
+          text-align: center;
+        }
+        a {
+          text-decoration: none;
+          color: black;
+        }
+      }
+    }
     p {
       padding: 5px;
+      text-align: center;
     }
   }
 }

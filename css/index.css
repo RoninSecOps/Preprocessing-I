@@ -383,8 +383,26 @@ body footer {
   margin-top: 3%;
   margin-left: 3%;
   background: #968686;
-  text-align: center;
+}
+body footer address {
+  font-size: 1.6rem;
+}
+body footer address h5 {
+  font-weight: bold;
+}
+body footer address p {
+  text-align: left;
+}
+@media (max-width: 500px) {
+  body footer address p {
+    text-align: center;
+  }
+}
+body footer address p a {
+  text-decoration: none;
+  color: black;
 }
 body footer p {
   padding: 5px;
+  text-align: center;
 }
