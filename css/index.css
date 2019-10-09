@@ -199,3 +199,66 @@ body header nav ul li a {
   font-weight: bold;
   color: black;
 }
+body .main-container {
+  justify-content: space-between;
+  margin-right: 3%;
+  background: #9c9a9a;
+  width: 100%;
+  display: flex;
+  flex-flow: column;
+  padding-bottom: 7%;
+}
+@media (max-width: 500px) {
+  body .main-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 1%;
+  }
+}
+body .main-container .main-photo {
+  margin-top: 7%;
+  margin-left: 3%;
+  margin-right: 3%;
+}
+@media (max-width: 500px) {
+  body .main-container .main-photo img {
+    clip-path: polygon(0% 0%, 100% 3%, 98% 99%, 3% 93%);
+  }
+}
+body .main-container .h1-container {
+  max-width: auto;
+  margin-left: 3%;
+}
+@media (max-width: 500px) {
+  body .main-container .h1-container {
+    margin-right: 3%;
+  }
+}
+body .main-container .h1-container h1 {
+  font-size: 3.8rem;
+}
+body .main-container .h1-container h2 {
+  font-size: 1.3rem;
+  line-height: 2.5;
+  color: #1c0083;
+}
+body .main-container .h1-container button {
+  font-size: 1.3rem;
+  color: white;
+  background: #808080;
+  border-radius: 5px;
+  padding: 1%;
+  margin-top: 2%;
+}
+body .main-container .h1-container button:hover {
+  background: #cdcdcd;
+  color: #191919;
+}
+body .main-container p {
+  border-top: 1px solid #968686;
+  margin-right: 3%;
+  padding-top: 2%;
+  font-size: 1.1rem;
+  color: #333;
+}

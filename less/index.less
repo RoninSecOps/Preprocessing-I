@@ -213,4 +213,62 @@ body {
       }
     }
   }
+  .main-container {
+    justify-content: space-between;
+    margin-right: 3%;
+    background: @boxgray;
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    padding-bottom: 7%;
+    @media (max-width: 500px) {
+      .flex-class();
+      margin-left: 1%;
+    }
+
+    .main-photo {
+      margin-top: 7%;
+      margin-left: 3%;
+      margin-right: 3%;
+      @media (max-width: 500px) {
+        img {
+          clip-path: polygon(0% 0%, 100% 3%, 98% 99%, 3% 93%);
+        }
+      }
+    }
+    .h1-container {
+      max-width: auto;
+      margin-left: 3%;
+      @media (max-width: 500px) {
+        margin-right: 3%;
+      }
+      h1 {
+        font-size: 3.8rem;
+      }
+      h2 {
+        font-size: 1.3rem;
+        line-height: 2.5;
+        color: rgb(28, 0, 131);
+      }
+      button {
+        font-size: 1.3rem;
+        color: white;
+        background: #808080;
+        border-radius: 5px;
+        padding: 1%;
+        margin-top: 2%;
+        &:hover {
+          background: lighten(#808080, 30%);
+          color: darken(white, 90%);
+        }
+      }
+    }
+    p {
+      border-top: 1px solid @gray;
+      margin-right: 3%;
+      padding-top: 2%;
+      font-size: 1.1rem;
+      color: #333;
+    }
+  }
 }
