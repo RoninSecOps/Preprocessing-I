@@ -136,3 +136,21 @@ body {
   font-size: 62.5%;
   font-family: 'Lato', sans-serif;
 }
+.center {
+  max-width: 980px;
+  margin: 0 auto;
+}
+.margin3tl {
+  margin-top: 3%;
+  margin-left: 3%;
+}
+.flex-class {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav-prop-mixin {
+  color: black;
+  font-size: 1.6rem;
+  text-decoration: none;
+}
