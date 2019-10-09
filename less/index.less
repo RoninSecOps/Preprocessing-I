@@ -169,3 +169,48 @@ body {
 @phone: 500px;
 
 // END
+
+body {
+  .wrapper {
+    max-width: 980px;
+    .center();
+    line-height: 1.2;
+    background: #fff;
+    @media (max-width: 500px) {
+      text-align: center;
+      margin-right: 3%;
+    }
+  }
+  header {
+    margin-top: 2%;
+    margin-bottom: 4%;
+
+    nav {
+      display: flex;
+      justify-content: flex-end;
+      width: 100%;
+      @media (max-width: 500px) {
+        justify-content: center;
+      }
+      ul {
+        display: flex;
+        justify-content: space-between;
+        width: 40%;
+        flex-wrap: wrap;
+
+        @media (max-width: 500px) {
+          width: 100%;
+          flex-flow: column;
+          text-align: center;
+        }
+
+        li a {
+          text-decoration: none;
+          font-size: 1.2rem;
+          font-weight: bold;
+          color: black;
+        }
+      }
+    }
+  }
+}

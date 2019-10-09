@@ -154,3 +154,48 @@ body {
   font-size: 1.6rem;
   text-decoration: none;
 }
+body .wrapper {
+  max-width: 980px;
+  margin: 0 auto;
+  line-height: 1.2;
+  background: #fff;
+}
+@media (max-width: 500px) {
+  body .wrapper {
+    text-align: center;
+    margin-right: 3%;
+  }
+}
+body header {
+  margin-top: 2%;
+  margin-bottom: 4%;
+}
+body header nav {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+@media (max-width: 500px) {
+  body header nav {
+    justify-content: center;
+  }
+}
+body header nav ul {
+  display: flex;
+  justify-content: space-between;
+  width: 40%;
+  flex-wrap: wrap;
+}
+@media (max-width: 500px) {
+  body header nav ul {
+    width: 100%;
+    flex-flow: column;
+    text-align: center;
+  }
+}
+body header nav ul li a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: black;
+}
