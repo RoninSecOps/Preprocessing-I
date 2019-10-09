@@ -324,4 +324,34 @@ body {
       }
     }
   }
+  .bottom-section {
+    margin-right: 3%;
+    display: flex;
+    justify-content: space-between;
+    .table-container {
+      width: 100%;
+      .margin3tl();
+
+      h3 {
+        font-size: 1.3rem;
+        font-weight: bold;
+      }
+      table {
+        margin-top: 1%;
+        width: 100%;
+        border-collapse: collapse;
+        th {
+          font-weight: bold;
+        }
+        td,
+        th {
+          text-align: left;
+          padding: 8px;
+        }
+        tr:nth-child(even) {
+          background-color: @gray;
+        }
+      }
+    }
+  }
 }

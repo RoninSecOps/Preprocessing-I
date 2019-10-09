@@ -325,3 +325,33 @@ body .middle-container .stuff-good h3 {
     width: 100%;
   }
 }
+body .bottom-section {
+  margin-right: 3%;
+  display: flex;
+  justify-content: space-between;
+}
+body .bottom-section .table-container {
+  width: 100%;
+  margin-top: 3%;
+  margin-left: 3%;
+}
+body .bottom-section .table-container h3 {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+body .bottom-section .table-container table {
+  margin-top: 1%;
+  width: 100%;
+  border-collapse: collapse;
+}
+body .bottom-section .table-container table th {
+  font-weight: bold;
+}
+body .bottom-section .table-container table td,
+body .bottom-section .table-container table th {
+  text-align: left;
+  padding: 8px;
+}
+body .bottom-section .table-container table tr:nth-child(even) {
+  background-color: #968686;
+}
