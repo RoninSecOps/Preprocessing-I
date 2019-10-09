@@ -262,3 +262,66 @@ body .main-container p {
   font-size: 1.1rem;
   color: #333;
 }
+body .middle-container {
+  margin-top: 3%;
+  margin-left: 3%;
+  display: flex;
+  justify-content: space-between;
+}
+@media (max-width: 500px) {
+  body .middle-container {
+    flex-flow: column;
+    align-items: center;
+    width: 100%;
+  }
+}
+body .middle-container .listen-up {
+  width: 48%;
+  font-size: 18px;
+}
+body .middle-container .listen-up h2 {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+@media (max-width: 500px) {
+  body .middle-container .listen-up {
+    margin-bottom: 3%;
+    width: 90%;
+  }
+}
+body .middle-container .stuff-good {
+  display: flex;
+  flex-flow: column;
+  text-align: center;
+  margin-right: 5%;
+  width: 40%;
+}
+@media (max-width: 500px) {
+  body .middle-container .stuff-good {
+    width: 40%;
+  }
+}
+body .middle-container .stuff-good p {
+  border: 1px solid #968686;
+  border-radius: 3px;
+  font-size: 18px;
+  padding: 2%;
+}
+@media (max-width: 500px) {
+  body .middle-container .stuff-good p {
+    margin: 3% 3%;
+  }
+}
+body .middle-container .stuff-good p:nth-child(odd) {
+  border: 1px solid #968686;
+}
+body .middle-container .stuff-good h3 {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+@media (max-width: 500px) {
+  body .middle-container .stuff-good {
+    margin-top: 3%;
+    width: 100%;
+  }
+}
