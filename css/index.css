@@ -195,7 +195,7 @@ body header nav ul {
 }
 body header nav ul li a {
   text-decoration: none;
-  font-size: 1.2rem;
+  font-size: 1.6rem;
   font-weight: bold;
   color: black;
 }
@@ -236,10 +236,11 @@ body .main-container .h1-container {
   }
 }
 body .main-container .h1-container h1 {
-  font-size: 3.8rem;
+  margin-top: 1%;
+  font-size: 5.8rem;
 }
 body .main-container .h1-container h2 {
-  font-size: 1.3rem;
+  font-size: 2.3rem;
   line-height: 2.5;
   color: #1c0083;
 }
@@ -259,7 +260,7 @@ body .main-container p {
   border-top: 1px solid #968686;
   margin-right: 3%;
   padding-top: 2%;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   color: #333;
 }
 body .middle-container {
@@ -280,6 +281,7 @@ body .middle-container .listen-up {
   font-size: 1.8rem;
 }
 body .middle-container .listen-up h2 {
+  margin-bottom: 3%;
   font-size: 1.8rem;
   font-weight: bold;
 }
@@ -295,6 +297,9 @@ body .middle-container .stuff-good {
   text-align: center;
   margin-right: 5%;
   width: 40%;
+}
+body .middle-container .stuff-good h3 {
+  margin-bottom: 3%;
 }
 @media (max-width: 500px) {
   body .middle-container .stuff-good {
@@ -336,7 +341,7 @@ body .bottom-section .table-container {
   margin-left: 3%;
 }
 body .bottom-section .table-container h3 {
-  font-size: 1.3rem;
+  font-size: 1.6rem;
   font-weight: bold;
 }
 body .bottom-section .table-container table {
@@ -345,6 +350,11 @@ body .bottom-section .table-container table {
   width: 100%;
   border-collapse: collapse;
 }
+@media (max-width: 500px) {
+  body .bottom-section .table-container table {
+    text-align: center;
+  }
+}
 body .bottom-section .table-container table th {
   font-weight: bold;
 }
@@ -352,6 +362,12 @@ body .bottom-section .table-container table td,
 body .bottom-section .table-container table th {
   text-align: left;
   padding: 8px;
+}
+@media (max-width: 500px) {
+  body .bottom-section .table-container table td,
+  body .bottom-section .table-container table th {
+    text-align: center;
+  }
 }
 body .bottom-section .table-container table tr:nth-child(even) {
   background-color: #968686;
