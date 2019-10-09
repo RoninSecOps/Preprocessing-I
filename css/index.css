@@ -259,7 +259,7 @@ body .main-container p {
   border-top: 1px solid #968686;
   margin-right: 3%;
   padding-top: 2%;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   color: #333;
 }
 body .middle-container {
@@ -277,7 +277,7 @@ body .middle-container {
 }
 body .middle-container .listen-up {
   width: 48%;
-  font-size: 18px;
+  font-size: 1.8rem;
 }
 body .middle-container .listen-up h2 {
   font-size: 1.8rem;
@@ -304,7 +304,7 @@ body .middle-container .stuff-good {
 body .middle-container .stuff-good p {
   border: 1px solid #968686;
   border-radius: 3px;
-  font-size: 18px;
+  font-size: 1.8rem;
   padding: 2%;
 }
 @media (max-width: 500px) {
@@ -340,6 +340,7 @@ body .bottom-section .table-container h3 {
   font-weight: bold;
 }
 body .bottom-section .table-container table {
+  font-size: 1.5rem;
   margin-top: 1%;
   width: 100%;
   border-collapse: collapse;
@@ -355,7 +356,13 @@ body .bottom-section .table-container table th {
 body .bottom-section .table-container table tr:nth-child(even) {
   background-color: #968686;
 }
+@media (max-width: 500px) {
+  body .bottom-section .table-container table .gone {
+    display: none;
+  }
+}
 body footer {
+  font-size: 1.3rem;
   margin-right: 3%;
   margin-top: 3%;
   margin-left: 3%;
@@ -364,9 +371,4 @@ body footer {
 }
 body footer p {
   padding: 5px;
-}
-@media (max-width: 500px) {
-  body .gone {
-    display: none;
-  }
 }
